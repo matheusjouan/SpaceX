@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "username": "",
+  "password": "",
+  "database": "spacex",
+  "useUnifiedTopology": true,
+  "entities": ["./src/modules/**/schemas/*.ts"]
+}
